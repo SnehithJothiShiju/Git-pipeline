@@ -25,3 +25,4 @@ pipeline {
   }
 }
 // This Jenkinsfile defines a CI/CD pipeline with multiple stages:
+// 1. Build: Uses Gradle to build the application.
