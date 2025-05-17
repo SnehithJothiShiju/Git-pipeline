@@ -4,7 +4,7 @@ pipeline {
     stage('Build') { // This stage is for building the application
       steps { echo 'Using Gradle to build the application' }
     }
-    stage('Unit and Integration Tests') {
+    stage('Unit and Integration Tests') { // This stage is for running unit and integration tests
       steps { echo 'Using Python to run tests' }
     }
     stage('Code Analysis') {
