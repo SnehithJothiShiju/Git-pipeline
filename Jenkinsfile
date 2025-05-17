@@ -26,3 +26,4 @@ pipeline {
 }
 // This Jenkinsfile defines a CI/CD pipeline with multiple stages:
 // 1. Build: Uses Gradle to build the application.
+// 2. Unit and Integration Tests: Uses Python to run unit and integration tests.
