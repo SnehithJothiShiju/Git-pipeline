@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Build') { // This stage is for building the application
       steps { echo 'Using Gradle to build the application' }
     }
     stage('Unit and Integration Tests') {
