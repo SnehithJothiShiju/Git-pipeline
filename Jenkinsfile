@@ -24,3 +24,4 @@ pipeline {
     }
   }
 }
+// This Jenkinsfile defines a CI/CD pipeline with multiple stages:
